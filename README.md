@@ -166,11 +166,11 @@ project-root/
 
 ## Установка и запуск
 
-###Необходимые пакеты:
+### Необходимые пакеты:
 - ```  pip install aiogram==3.7.0 ```
 - ```  pip install flet==0.22.1```
 
-###Запуск на ngrok:
+### Запуск на ngrok:
 - Необходимо установить **ngrok**
 - Запафить **ngrok** в винде
 - Открыть командную строку, прописать ```ngrok http 80```
@@ -178,14 +178,14 @@ project-root/
 - ``` python UI.py``` 
 - ```  python main.py ``` 
 
-###Запуска на LocalTunnel:
+### Запуска на LocalTunnel:
 -npm install -g localtunnel
 -lt --port 80
 - Взять URL https и добавить в переменную **UI_URL**(config.py)
 - ``` python UI.py``` 
 - ```  python main.py ``` 
 
-###Запуск UI для доработок:
+### Запуск UI для доработок:
 
 ``` flet run UI.py ```
 
