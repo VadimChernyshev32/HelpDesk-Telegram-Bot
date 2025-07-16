@@ -1,0 +1,20 @@
+# IDE/Editor
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# SQLite database
+*.db
+
+# Configs and secrets
+config.py
+
+# Virtualenv
+.venv/
+venv/
+env/
